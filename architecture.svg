@@ -1,0 +1,49 @@
+<svg viewBox="0 0 680 470" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img">
+<title>CRP protocol contract dependency graph</title>
+<desc>CopyrightPass token underpins VotingEscrow, which feeds CRPGovernor; the Governor acts through the Protocol (7d) and Operational (2d) Timelocks, which govern the Ecosystem Registry.</desc>
+<defs>
+<marker id="arr" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+<path d="M0,0 L7,3 L0,6 Z" fill="#6b7280"/>
+</marker>
+</defs>
+<rect x="0" y="0" width="680" height="470" fill="#ffffff"/>
+
+<line x1="340" y1="82" x2="340" y2="116" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arr)"/>
+<line x1="340" y1="178" x2="340" y2="214" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arr)"/>
+<line x1="265" y1="248" x2="216" y2="248" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arr)"/>
+<line x1="415" y1="248" x2="464" y2="248" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arr)"/>
+<polyline points="135,276 135,360 259,360" fill="none" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arr)"/>
+<polyline points="545,276 545,360 421,360" fill="none" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arr)"/>
+
+<text x="350" y="103" font-size="11" fill="#9ca3af">underlying</text>
+<text x="350" y="199" font-size="11" fill="#9ca3af">voting power</text>
+<text x="200" y="240" font-size="11" fill="#9ca3af" text-anchor="end">execute</text>
+<text x="480" y="240" font-size="11" fill="#9ca3af">execute</text>
+
+<rect x="265" y="26" width="150" height="56" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.5"/>
+<text x="340" y="50" font-size="13" font-weight="500" fill="#26215C" text-anchor="middle">CopyrightPass (CRP)</text>
+<text x="340" y="68" font-size="11" fill="#534AB7" text-anchor="middle" font-family="monospace">0x2059…784c</text>
+
+<rect x="265" y="120" width="150" height="56" rx="8" fill="#f8f9fb" stroke="#d1d5db"/>
+<text x="340" y="144" font-size="13" font-weight="500" fill="#111827" text-anchor="middle">VotingEscrow</text>
+<text x="340" y="162" font-size="11" fill="#6b7280" text-anchor="middle" font-family="monospace">0xf343…2bF3</text>
+
+<rect x="265" y="220" width="150" height="56" rx="8" fill="#f8f9fb" stroke="#d1d5db"/>
+<text x="340" y="244" font-size="13" font-weight="500" fill="#111827" text-anchor="middle">CRPGovernor</text>
+<text x="340" y="262" font-size="11" fill="#6b7280" text-anchor="middle" font-family="monospace">0x7F11…080b</text>
+
+<rect x="60" y="220" width="156" height="56" rx="8" fill="#f8f9fb" stroke="#d1d5db"/>
+<text x="138" y="244" font-size="13" font-weight="500" fill="#111827" text-anchor="middle">ProtocolTimelock · 7d</text>
+<text x="138" y="262" font-size="11" fill="#6b7280" text-anchor="middle" font-family="monospace">0x9552…e3eC</text>
+
+<rect x="464" y="220" width="156" height="56" rx="8" fill="#f8f9fb" stroke="#d1d5db"/>
+<text x="542" y="244" font-size="13" font-weight="500" fill="#111827" text-anchor="middle">OperationalTimelock · 2d</text>
+<text x="542" y="262" font-size="11" fill="#6b7280" text-anchor="middle" font-family="monospace">0xea9B…6305</text>
+
+<rect x="259" y="332" width="162" height="56" rx="8" fill="#f8f9fb" stroke="#d1d5db"/>
+<text x="340" y="356" font-size="13" font-weight="500" fill="#111827" text-anchor="middle">CRPEcosystemRegistry</text>
+<text x="340" y="374" font-size="11" fill="#6b7280" text-anchor="middle" font-family="monospace">0x152E…179C8</text>
+
+<line x1="30" y1="420" x2="650" y2="420" stroke="#e5e7eb" stroke-width="1"/>
+<text x="30" y="442" font-size="11" fill="#9ca3af">Arrow = constructor reference / control flow. All on BSC mainnet, compiler v0.8.24, optimizer 200, MIT.</text>
+</svg>
