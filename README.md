@@ -85,9 +85,9 @@ The bundle includes:
 - Verification helper script
 - English / Chinese verification documentation
 
-## Contract Verification
+## Latest Release
 
-The official CRP BscScan verification bundle is published in the CRP contracts repository:
+The latest CRP BscScan verification bundle is available here:
 
 https://github.com/copyrightpass/crp-contracts/releases/tag/bsc-mainnet-verification-v1.0.0
 
